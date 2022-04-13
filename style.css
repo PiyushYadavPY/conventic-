@@ -99,6 +99,21 @@ button{
     position: absolute;
     bottom: -70px;
 }
+@media screen and (max-width:700px){
+    .content h1{
+        width: 80%;
+        font-size:50px ;
+        float: none;
+    }
+    .navbar {
+        width: 50% ;
+
+    }
+    .bubbles {
+        width: 85%;
+    }
+   
+}
 
 @keyframes bubble{
     0%{
